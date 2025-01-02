@@ -1,7 +1,7 @@
 from translate import Translator
 
 def translate_text(text, target_language):
-    translator = Translator(to_language=target_language)
+    translator = Translator(to_lang=target_language)
     translation = translator.translate(text)
     return translation
 
